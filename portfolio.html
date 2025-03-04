@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanishi -Developer Portfolio</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        .l {
+            font-size:30px;
+        }
+        body {
+            background-color:rgb(0,0,33);
+            color:white;
+            font-family: 'Poppins',sans-serif;
+        }
+        nav {
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            height:80px;
+            background-color:rgb(18,18,62);
+
+        }
+         nav ul {
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style:none;
+            margin:0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        nav ul li a:hover{
+            color:rgb(133, 133, 224);
+            font-size:1.08rem;
+        }
+        
+        .hi {
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+            margin:80px 0;
+            
+        }
+        .hi > div {
+            width:30%;
+        }
+        .lsec{
+            font-size:3rem
+            
+            
+        }
+        .rsec img{
+            width:80%;
+          
+        }
+.name {
+    color:rgb(146, 65, 221);
+    font-family: 'Times New Roman', Times, serif;
+}
+     #element {
+        color:rgb(146,65,221);
+        font-family: 'Times New Roman', Times, serif;
+}
+
+     
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="l"> Tanishi's Portfolio</div>
+            <div class="r">
+            <ul>
+                <li><a href="$">Home</a>
+                </li>
+                <li><a href="$">About</a></li>
+                <li><a href="$">Skills</a></li>
+                <li><a href="$">Education</a></li>
+                <li><a href="$">Contact Me</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hi">
+            <div class="lsec">
+                Hi,My name is <span class="name">Tanishi</span><br>
+                
+                <div>and I am a passionate</div>
+                
+                <span id="element"></span>
+
+            </div>
+            <div class="rsec">
+                <img src="devimg.jpg.jpeg">
+            </div>
+ 
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', ' an Editor','&amp; a Video Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
